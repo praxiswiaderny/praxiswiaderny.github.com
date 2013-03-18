@@ -1,0 +1,120 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content:'';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+	
+	background: #fff;
+	color: #414141;
+	-webkit-text-size-adjust: none;
+	font: 14px/22px "Courier New", Courier, mono;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+a{
+	color: #8eb2d3;
+	text-decoration: none;
+}
+p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form, .gallery-row, .post-thumb, .author-bio, #logo {
+margin-bottom: 20px;
+}
+
+#content {
+	padding: 150px 0 50px;
+}
+
+#logo{
+	background-image: url(../images/logo.png);
+	width: 476px;
+	height: 81px;
+	margin: 0 auto 50px;
+}
+#content, .inner {
+	width: 940px;
+	margin: 0 auto;
+}
+.clearfix {
+	display: block;
+	clear: both;
+}
+
+span.italic {
+	font-style: italic;
+	font-size: 12px;
+}
+
+#footer{
+	padding-top: 20px;
+	
+}
+
+#footer p{
+	margin-bottom: 0;
+}
+.left{
+	float: left;
+}
+#info{
+	margin-right: 25px;
+}
+
+span.bold {
+	margin-right: 5px;
+}
+#primary {
+width: 940px;
+float: left;
+margin-bottom: 10px;
+}
+
+#copyright{
+	position: absolute;
+	bottom: 5px;
+	right: 0;
+	left: 0;
+	text-align: center;
+	font-size: 11px;
+}
+.sep{
+	text-align: center;
+	background: url(../images/sep.png) repeat-x 0 11px;
+}
+
+#content div.sep span {
+	background-color: #ffffff;
+	padding-right: 10px;
+	padding-left: 15px;
+	font-size: 16px;
+	letter-spacing: 5px;
+}
