@@ -1,55 +1,429 @@
 <!DOCTYPE html>
-<!-- BEGIN html -->
 <html dir="ltr" lang="de-DE">
-	<!-- BEGIN head -->
-	<head>
-		<!-- Meta Tags -->
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<link rel="shortcut icon" href="assets/images/ico/favicon.png" />
-		<!-- Title -->
-		<title>Dipl. PT (FH) I. Wiaderny &mdash; Physiotherapie Kirchheim unter Teck</title>
-		<!-- Stylesheet -->
-		<link rel="stylesheet" href="assets/css/app.css" type="text/css" media="screen" />
-		<meta name="description" content="Kassenpatienten &#10004; Privatpatienten &#10004; Selbstzahler &#10004; Rufen Sie an und vereinbaren Sie einen Termin unter 07021-80-76-244" />
-		<meta name="keywords" content="phyiotherapie, praxis, kirchheim, teck, wiaderny" />
-		<!-- END head -->
-	</head>
-	
-	<body>
-	
-	<div id="container" class="clearfix">
-	<div id="content" class="clearfix">
-	<div id="logo"></div>
-	<div id="primary">
-	
-	
-	<p>Vielen Dank für Ihr Interesse an meiner Webseite. Diese befindet sich gerade im Aufbau, meine Praxis in Kirchheim ist hingegen schon am 13. März 2013 eröffnet worden. Kommen Sie gerne vorbei und ich informiere Sie in einem persönlichen Gespräch über mein Leistungsspektrum. </p>
-	<p>Beste Grüße<br />Ihre Isabela Wiaderny</p>
-	
-	
-	
-	</div>
-	
-	<div class="clearfix"></div>
-	<div class="sep"><span>Kontakt</span></div>
-	<div id="footer" >
-	<div id="info" class="left">
-	<p>Praxis für Physiotherapie <br />
-	Isabela Wiaderny<br />
-	<span class="italic">Dipl. Physiotherapeutin (FH)</span><br />
-	Paradiesstr. 18/20<br />
-	D-73230 Kirchheim/Teck </p>
-	</div>
-	<div class="left">
-	<p><span class="bold">Telefon:</span><span>&#x30;&#x37;&#x30;&#x32;&#x31;&#x2D;&#x38;&#x30;&#x2D;&#x37;&#x36;&#x2D;&#x32;&#x34;&#x34;</span></p>
-	<span class="bold">Email:</span><span>&#x70;&#x72;&#x61;&#x78;&#x69;&#x73;&#x40;&#x77;&#x69;&#x61;&#x64;&#x65;&#x72;&#x6E;&#x79;&#x2E;&#x64;&#x65;</span>
-	<p>Öffnungszeiten nach Vereinbarung</p></div>
-	</div>
-	
-	</div>
-	</div>
-	<div id="copyright">Copyright &copy; 2013 Isabela Wiaderny. Alle Rechte vorbehalten. <a target="blank"href="impressum.html">Impressum</a></div>
-	</body>
-	<!--END html-->
-	</html>
-	
+
+<head>
+    <!--  Meta Tags  -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="shortcut icon" href="assets/images/ico/favicon.png" />
+    <meta name="viewport" content="width=device-width" />
+    <script src="http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.js"></script>
+    <link href="http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.css" rel="stylesheet" />
+    <!-- [if lte IE 8]>
+<link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.ie.css' rel='stylesheet' >
+<![endif] -->
+    <link rel="stylesheet" href="assets/css/app.css" type="text/css" />
+    <script src="assets/js/libs/modernizr.js"></script>
+    <script src="assets/js/libs/jquery.js"></script>
+    <script src="assets/js/libs/isotope.js"></script>
+    <script src="assets/js/libs/resize-min.js"></script>
+    <link rel="stylesheet" href="assets/css/fancybox.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="assets/js/libs/fancybox.js"></script>
+    <script src="assets/js/app.js"></script>
+    <!--  Title  -->
+    <title>Dipl. PT (FH) I. Wiaderny &mdash; Physiotherapie Kirchheim unter Teck</title>
+    <meta name="description" content="Kassenpatienten &#10004; Privatpatienten &#10004; Selbstzahler &#10004; Rufen Sie an und vereinbaren Sie einen Termin unter 07021-80-76-244" />
+    <meta name="keywords" content="phyiotherapie, ergotherapie, krankengymnastik, bobath, praxis, kirchheim, teck, wiaderny" />
+    <!--  END head  -->
+</head>
+
+<body>
+    <div id="loading"></div>
+    <span itemscope itemtype="http://schema.org/LocalBusiness">
+        <div id="top">
+            <div id="logo">
+                <img itemprop="image" src="assets/images/logo.png" />
+            </div>
+            <div id="scrolldown">nach unten scrollen</div>
+        </div>
+
+        <div id="header-wrap">
+            <div id="header">
+                <div id="header-inner">
+                    <div id="nav-logo">
+                        <h1><a href="http://www.wiaderny.de/" title="Isabela Wiaderny &mdash; Diplom Physiotherapeutin in Kirchheim unter Teck">Isabela Wiaderny</a>
+                        </h1>
+                    </div>
+                    <div id="navigation">
+                        <ul>
+
+
+                            <li class="link"><a href="#contact" title="Kontakt" class="scroll">Kontakt</a>
+                            </li>
+                            <li class="link"><a href="#services" title="Leistungen" class="scroll">Leistungen</a>
+                            </li>
+
+                            <li class="link"><a href="#about" title="Profil" class="scroll">Profil</a>
+                            </li>
+                            <li class="link"><a href="#gallery" title="Impressionen" class="scroll">Impressionen</a>
+                            </li>
+                            <li class="link"><a href="#concept" title="Konzept" class="scroll">Konzept</a>
+                            </li>
+
+
+
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="container">
+            <div id="content">
+
+                <div id="concept">
+                    <div id="concept_content">
+                        <div class="sep">
+                            <span>Das Konzept der Praxis</span>
+                        </div>
+                        <p>Hektik und Massenabfertigung werden Sie in der Praxis Wiaderny nicht finden. Statt dessen werden Sie, beginnend mit der vertrauensvollen Anamnese und der fachgerechten Untersuchung bis hin zur maßgeschneiderten Beratung und letztlich zum Erreichen des individuellen Behandlungszieles von Isabela Wiaderny persönlich behandelt und betreut. Ihre 20-jährige Berufserfahrung in Kliniken und Praxen, die feine Kombination der Weiter- und Fortbildungen und besonders Ihre einzigartigen analytischen Fähigkeiten sind die Basis für diese ganzheitliche Therapie auf akademischem Niveau in einer Atmosphäre zum Wohlfühlen und Entspannen.</p>
+
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div id="gallery">
+                    <div id="gallery_content">
+                        <div class="sep">
+                            <span>Impressionen</span>
+                        </div>
+
+                        <div id="gallery_container">
+
+                            <div class="item featured">
+                                <a class="fancybox" rel="group" href="assets/images/br.jpg">
+                                    <span class="overlay" style="display: none; ">
+                                        <span class="icon">+</span>
+                                    </span>
+                                    <img src="assets/images/br-s.jpg" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a class="fancybox" rel="group" href="assets/images/gym.jpg">
+                                    <span class="overlay" style="display: none; ">
+                                        <span class="icon">+</span>
+                                    </span>
+                                    <img src="assets/images/gym-s.jpg" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a class="fancybox" rel="group" href="assets/images/detail-gym-2.jpg">
+                                    <span class="overlay" style="display: none; ">
+                                        <span class="icon">+</span>
+                                    </span>
+                                    <img src="assets/images/detail-gym-2-s.jpg" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a class="fancybox" rel="group" href="assets/images/detail-gym-1.jpg">
+                                    <span class="overlay" style="display: none; ">
+                                        <span class="icon">+</span>
+                                    </span>
+                                    <img src="assets/images/detail-gym-1.jpg" alt="" />
+                                </a>
+                            </div>
+
+                          
+
+                            <div class="item">
+                                <a class="fancybox" rel="group" href="assets/images/detail-rot-1.jpg">
+                                    <span class="overlay" style="display: none; ">
+                                        <span class="icon">+</span>
+                                    </span>
+                                    <img src="assets/images/detail-rot-1.jpg" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a class="fancybox" rel="group" href="assets/images/detail-rot-2.jpg">
+                                    <span class="overlay" style="display: none; ">
+                                        <span class="icon">+</span>
+                                    </span>
+                                    <img src="assets/images/detail-rot-2-s.jpg" alt="" />
+                                </a>
+                            </div>
+
+                              <div class="item">
+                                <a class="fancybox" rel="group" href="assets/images/rot.jpg">
+                                    <span class="overlay" style="display: none; ">
+                                        <span class="icon">+</span>
+                                    </span>
+                                    <img src="assets/images/rot.jpg" alt="" />
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div id="about">
+                    <div id="about_content">
+                        <div class="sep">
+                            <span>Profil</span>
+                        </div>
+                        <img src="assets/images/isabela_wiaderny.jpg" />
+                        <div class="one_half">
+                            <p>Isabela Wiaderny wurde im Jahre 1964 in der Nähe von Danzig, Polen geboren und zog in ihren zwanziger Jahren nach Stuttgart, Deutschland. Nach ihrer Ausbildung als Physiotherapeutin an der VPT-Akademie studierte sie an der Fachhochschule Nordhessen Physiotherapie mit dem Schwerpunkt medizinische Pädagogik und bekam den akademischen Titel Dipl. Physiotherapeutin (FH) für ihre Arbeit über die fokale Dystonie bei Pianisten verliehen. Nach mehreren Jahren, in denen sie die Freude hatte mit erfolgreichen Pianisten und Cellisten zusammenzuarbeiten, widmete sie sich neurologischen Therapiekonzepten und absolviere mehrere Fortbildungen, unter anderem Bobath Stufe I in Bad Tölz, Stufe II in Heidelberg und Propriozeptive Neuromuskuläre Fazilitation in Stuttgart.
+                            </p>
+                        </div>
+                        <div class="one_half last">
+                            <p>Während ihrer Zeit in mehreren Kliniken und Praxen, durchlief sie in weiteren Jahren zusätzliche Spezialisierungen wie Manuelle Therapie in Ulm und Lymphdrainage in Freiburg. Bei Ihrem Forschungsaufenthalt in Toronto, Kanada widtmete sie sich dann der Myoreflextherapie, welche bis heute eine wichtige Rolle in ihrem Tätigkeitsprofil darstellt. Über die Jahre betreute sie zahlreiche Schlüsselfiguren aus dem Fussballsport, dem Profi-Boxsport und dem Fitnesssport. In ihrer zwanzigjährigen Laufbahn sammelte sie dadurch bedeutende Erfahrungen im sport-medizinsichen Bereich. Seit 2008 praktiziert sie in Ihrer eigenen Praxis, deren Sitz sich seit dem Frühjahr 2013 in Kirchheim unter Teck befindet.
+                            </p>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="partner"><img src="assets/images/partner.png"></div>
+                    </div>
+                </div>
+
+                <div id="services">
+                    <div id="services_content">
+                        <div class="sep">
+                            <span>Leistungen</span>
+                        </div>
+                        <p>Die physiotherapeutische Praxis Wiaderny unterhält Kooperationen mit allen Krankenkassen, sodass Kassenpatienten ärztlich rezeptierte Heilmittel in Anspruch nehmen können. In der Praxis werden auf Wunsch auch alle Kassenleistungen ohne Rezept, auf private Rechnung, durchgeführt. Patienten dieser Leistungsgruppe erfreuen sich an exklusiven Behandlungspaketen mit preislichem Vorteil und genießen gesonderte Premiumleistungen.</p>
+
+                         <div class="one_third">
+                            <p class="service">Kassenpatienten</p>
+                            
+                               <span>Patienten aller Krankenkassen akzeptiert.</span>
+                           
+                            
+                        </div>
+
+                        <div class="two_third last spread">
+                            <p class="service">Privatpatienten</p>
+                            <div class="two_third">
+                            <div class="menusep"><span>Befunderhebung</span></div>
+
+                                    <p>Physiotherapeutisches Beratungsgespräch                             
+                                    <br/>Durchführung normierter Testverfahren 
+                                    <br/>Statuskonsultation (max. 20 min.)
+                                    </p>
+
+                                    <div class="menusep"><span>Behandlungsart</span></div>
+
+                                    <p>Krankengymnastik auf neurologischer Grundlage
+                                    <br/>Behandlung von zentralen Bewegungsstörungen n. Bobath (Erw.) 
+                                    <br/>Behandlung von zentralen Bewegungsstörungen n. PNF (Erw.)
+                                    <br/>Manuelle Therapie
+                                    <br/>Migränebehandlung
+                                    <br/>Traktionsbehandlung am Schlingentisch mit Nachruhezeit
+                                    <br/>Beckenbodengymnastik nach gynäkologischen Eingriffen
+                                    <br/>Medizinische Lymphdrainage Teilbehandlung (30 min.) 
+                                    <br/>Medizinische Lymphdrainage Teilbehandlung (45 min.) 
+                                    <br/>Medizinische Lymphdrainage Teilbehandlung (60 min.)
+                                    <br/>Kompressionsbehandlung einer Extremität
+                                    <br/>Klassische Medizinische Massage (20 min.)
+                                    <br/>Klassische Medizinische Vollmassage (60 min.)
+                                    <br/>Fango mit Nachruhe
+                                    <br/>Wärmeanwendung mit Infrarotlampe
+                                    <br/>Heisse Rolle
+                                    <br/>Ultraschall
+                                    <br/>Elektrotherapie
+                                    </p>
+
+                                    <div class="menusep"><span>Zusatzleistungen</span></div>
+
+                                    <p>Hausbesuch bis 10 km
+                                    <br/>Gutachten
+                                </p>
+                            </div>
+                            <div class="one_third last right">
+                            <div class="one_half">
+                                    <div class="dummysep"><span>Einfach</span></div>
+                                	<p>34,90€ 
+                                    <br/>74,90€
+                                    <br/>21,90€
+                                    <br/>
+                                    </p>
+                                    <div class="dummysep-two"><span></span></div>
+                                    <p>29,90€
+                                    <br/>36,90€
+                                    <br/>36,90€
+                                    <br/>34,90€
+                                    <br/>34,90€
+                                    <br/>20,90€
+                                    <br/>29,90€
+                                    <br/>34,90€
+                                    <br/>49,90€
+                                    <br/>67,90€
+                                    <br/>19,90€
+                                    <br/>24,90€
+                                    <br/>69,90€
+                                    <br/>12,90€
+                                    <br/>10,90€
+                                    <br/>16,90€
+                                    <br/>14,90€
+                                    <br/>10,90€
+                                    </p>
+                                    <div class="dummysep-two"><span></span></div>
+                                    <p>19,90€
+                                    <br/>26,90€
+                                    <br/>
+
+                                </p>
+                            </div>
+                            <div class="one_half last">
+                                <div class="dummysep"><span>Zehnfach</span></div>
+                               		<p>--
+                                    <br/>--
+                                    <br/>--
+                                    <br/>
+                                    </p>
+                                        <div class="dummysep-two"><span></span></div>
+                                    <p>269,90€
+                                    <br/>329,90€
+                                    <br/>329,90€
+                                    <br/>319,90€
+                                    <br/>319,90€
+                                    <br/>187,90€
+                                    <br/>269,90€
+                                    <br/>324,90€
+                                    <br/>474,90€
+                                    <br/>664,90€
+                                    <br/>174,90€
+                                    <br/>219,90€
+                                    <br/>659,90€
+                                    <br/>119,90€
+                                    <br/>99,90€
+                                    <br/>149,90€
+                                    <br/>129,90€
+                                    <br/>94,90€
+                                    <br/>
+                                   </p>
+                                        <div class="dummysep-two"><span></span></div>
+                                    <p>--
+                                    <br/>--
+                                    <br/>
+
+                                </p>
+                            </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+
+                        <div class="clearfix"></div>
+
+                           <div class="two_third">
+                            <p class="service">Premiumleistungen</p>
+                            <div class="five_sixth">
+                                <p>
+ Verjungerungsmassage  mit hochwertigem Arganöl und Weihrauch  (45 min.)
+ <br/>Fussrelexzonemassage inklusive Aloe Vera Maske
+ <br/>Entschlackende Edelsteinmassage
+ <br/>Moxabehandlung mit Zigarren zur Entspannung und Revitalisierung (30 min.)
+ </p>
+                            </div>
+                            <div class="one_sixth last right">
+                                <p>
+                                    69,90€
+                                    <br/>44,90€
+                                    <br/>59,90€
+                                    <br/>34,90€
+                                    <br/>
+                                </p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+
+                         <div class="one_third last">
+                            
+                           
+                                <p>Kassenpatienten werden höflich gebeten jeweils ein großes und ein kleines Handtuch für die Behandlung bereitzustellen. </p>
+                                <p>Patienten erklären sich mit den <a href="assets/agb_physiotherapie_wiaderny_kirchheim.pdf">AGB</a> einverstanden.</p>
+                        </div>
+
+
+                       
+
+                        <div class="clearfix"></div>
+
+                    </div>
+
+                </div>
+
+                <div id="contact">
+                    <div id="contact_content">
+                        <div class="sep">
+                            <span>Kontakt</span>
+                        </div>
+                        <div class="one_third">
+                            <p>
+                                <span itemprop="name">Praxis für Physiotherapie Wiaderny</span>
+                                <br/>
+                                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+
+                                    <span itemprop="streetAddress">Paradiesstraße 18-20</span>
+                                    <br/>
+
+                                    <span itemprop="postalCode">73230</span>
+                                    <span itemprop="addressLocality">Kirchheim unter Teck</span>
+                                    <br/>
+
+                                    <span itemprop="addressCountry">Deutschland</span>
+                                </span>
+                            </p>
+
+                            <p>
+                                <strong>Isabela Wiaderny</strong>
+                                <br/>Dipl. Physiotherapeutin (FH)
+                                <br/>
+                                <a href="callto:004970218076244">
+                                    <span itemprop="telephone">+49 7021 8076244</span>
+                                </a>
+                                <br/>
+                                <a href="mailto:praxis@wiaderny.de">
+                                    <meta itemprop="email" content="praxis@wiaderny.de">praxis@wiaderny.de</a>
+                                <br/>
+                                <br/>
+                                <span itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
+                                    <span itemprop="dayOfWeek" itemscope itemtype="http://schema.org/DayOfWeek">
+
+                                        <span itemprop="name">Öffnungszeiten nach Vereinbarung</span>
+                                    </span>
+                                </span>
+                            </p>
+                        </div>
+
+
+                        <div class="two_third last">
+                            <div id="map">
+                                <script type='text/javascript'>
+                                var map = L.mapbox.map('map', 'jonahw.map-sfuai8qk').setView([48.657711343222095, 9.449186325073242], 13);;
+                                </script>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </span>
+    <div id="footer">
+        <div id="footer_content">
+            <img src="assets/images/logo_footer.png" />
+            <p>Copyright © 2013 Isabela Wiaderny. Alle Rechte vorbehalten.
+                <br/>Handgefertigt von <a href="http://www.wiaderny.org" target="_blank">Jonah Wiaderny</a> —
+                <span id="impressum"><a href="impressum.html" target="_blank">Impressum</a></span>
+            </p>
+        </div>
+    </div>
+
+    <div itemscope itemtype="http://schema.org/Place">
+        <div itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
+            <meta itemprop="latitude" content="48.65097" />
+            <meta itemprop="longitude" content="9.44845" />
+        </div>
+    </div>
+
+
+    <script type="text/javascript"></script>
+
+</body>
+
+</html>
