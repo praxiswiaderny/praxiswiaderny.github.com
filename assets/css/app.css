@@ -319,6 +319,7 @@ line-height: 1;
 /* Top part end ------------------------------*/
 #about_content img {
 	margin-bottom: 20px;
+	clear: both;
 }
 #about_content div.one_half div.two_third p,
 #services_content div.one_third div.two_third p, 
