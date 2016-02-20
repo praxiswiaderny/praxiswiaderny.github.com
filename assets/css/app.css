@@ -1,9 +1,5 @@
-@font-face {
-  font-family: 'LatoL';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Lato Light'), local('Lato-Light'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/kcf5uOXucLcbFOydGU24WALUuEpTyoUstqEm5AMlJo4.woff) format('woff');
-}
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -41,11 +37,12 @@ body {
 	background: #fff;
 	color: #333;
 	-webkit-text-size-adjust: none;
-	font: 14px/22px "LatoL", "HelveticaNeue", Arial, mono;
+	font: 18px/28px "Lato", "HelveticaNeue", Arial, mono;
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
 	-ms-hyphens: auto;
 	hyphens: auto;
+	font-weight: 300;
 }
 a {
 	color: #414141;
@@ -60,6 +57,10 @@ p{
 
 .right{
 	text-align: right;
+}
+
+.center {
+	text-align: center;
 }
 /* Columns ------------------------------*/
  .one_half {
@@ -115,16 +116,38 @@ p{
 .right{
 	text-align: right;
 }
+
+.kasse-inner {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  background: #F0FFFD;
+  padding: 50px;
+  border-radius: 3px;
+  color: #2C6F53;
+  letter-spacing: 1px;
+}
+
+.kasse {
+	height: 168px;
+	line-height: 168px;
+	text-align: center;
+}
 /* Columns end------------------------------*/
 p.service {
-	font-size: 1em;
-	background-color: #f7f7f7;
-	font-style: normal;
-	text-transform: uppercase;
-	letter-spacing: 0.3em;
-	text-align: center;
-	padding: 3px 17px;
+  font-size: 20px;
+  background-color: #FAFAFA;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  text-align: center;
+  padding: 10px 17px;
+  font-weight: 400;
+  margin-top: 9px;
+  border-radius: 3px;
+  color: #5F5F5F;
 }
+
 #content, .inner {
 	width: 940px;
 	margin: 0 auto;
@@ -143,6 +166,10 @@ span.bold {
 strong {
 	font-weight: bold;
 }
+
+p.leistung {
+	margin-top: 25px;
+}
 /* Footer ------------------------------*/
 #footer {
 	padding-top: 20px;
@@ -156,19 +183,19 @@ width: 940px;
 margin: 0 auto;
 padding: 100px 0;
 text-align: center;
-color: #BABABA;
-font-size: .7em;
+color: #909090;
+font-size: 15px;
 font-style: normal;
-text-transform: uppercase;
-line-height: 1.7em;
-letter-spacing: 0.4em;
+line-height: 26px;
+letter-spacing: 2px;
 }
 #footer p {
 	margin-bottom: 0;
 }
 #footer a {
 	text-decoration: none;
-	color: #bababa;
+	color: #909090;
+	font-weight: 400;
 }
 /* Footer end------------------------------*/
 .left {
@@ -176,8 +203,8 @@ letter-spacing: 0.4em;
 }
 .sep {
 	text-align: center;
-	background: url(../images/sep.png) repeat-x 0 11px;
-	margin: 60px 0 20px 0;
+	background: url(../images/sep.png) repeat-x 0 14px;
+	margin: 60px 0 30px 0;
 }
 .menusep {
 	background: url(../images/sep.png) repeat-x 0 12px;
@@ -192,7 +219,7 @@ letter-spacing: 0.4em;
 }
 .menusep span{
 	background-color: #ffffff;
-	font-size: 15px;
+	font-size: 20px;
 	padding-right: 10px;
 }
 .dummysep span{
@@ -200,19 +227,37 @@ letter-spacing: 0.4em;
 	font-size: 15px;
 	
 }
+
 #content div.sep span {
-	background-color: #ffffff;
-	padding-right: 10px;
-	padding-left: 15px;
-	font-size: 17px;
-	letter-spacing: 5px;
+  background-color: #ffffff;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 26px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: #404040;
+}
+
+super {
+	font-size: 10px;
+  top: -5px;
+  position: relative;
+
+}
+
+.fine-print {
+	position: relative;
+  top: -24px;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
 }
 /* Map ------------------------------*/
 #map {
 	padding: 0px;
 	overflow: hidden;
 	position: relative;
-	height: 230px;
+	height: 292px;
 	margin-top: 5px;
 }
 .leaflet-popup-content {
@@ -316,11 +361,16 @@ line-height: 1;
 #container {
 	background-color: #fff;
 }
+
+.partner {
+	margin-top: 30px;
+}
 /* Top part end ------------------------------*/
 #about_content img {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	display: block;
 }
+
 #about_content div.one_half div.two_third p,
 #services_content div.one_third div.two_third p, 
 #services_content div.one_third div.one_third p {
@@ -332,7 +382,7 @@ line-height: 1;
 	top: -60px;
 	position: fixed;
 	width: 100%;
-	height: 56px;
+	height: 62px;
 	background: #333;
 	z-index: 10;
 	-webkit-font-smoothing: subpixel-antialiased;
@@ -372,7 +422,7 @@ line-height: 1;
 	text-indent: -9999px;
 	display: block;
 	background-size: 240px 40px;
-	margin-top: 11px;
+	margin-top: 15px;
 }
 
 #navigation {
@@ -394,7 +444,7 @@ line-height: 1;
 	width: auto;
 	margin: 0 0 0 20px;
 	padding: 0;
-	font-size: 15px;
+	font-size: 17px;
 }
 
 #navigation ul li a {
