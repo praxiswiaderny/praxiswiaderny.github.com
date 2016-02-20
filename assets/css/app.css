@@ -250,15 +250,26 @@ super {
 }
 }
 /* Map ------------------------------*/
+
 #map {
 	padding: 0px;
 	overflow: hidden;
-	position: relative;
 	height: 292px;
+	width: 100%;
 	margin-top: 5px;
 }
+
+#map {
+	color: #fff;
+	padding: 0px;
+	height: 292px;
+	width: 100%;
+	margin-top: 5px;
+	overflow: hidden;
+}
+
 .leaflet-popup-content {
-	font-family: LatoL;
+	font-family: Lato;
 }
 /* Map end ------------------------------*/
 
