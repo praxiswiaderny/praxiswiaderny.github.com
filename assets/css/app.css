@@ -39,10 +39,6 @@ body {
 	color: #333;
 	-webkit-text-size-adjust: none;
 	font: 18px/28px "Lato", "HelveticaNeue", Arial, mono;
-	-webkit-hyphens: auto;
-	-moz-hyphens: auto;
-	-ms-hyphens: auto;
-	hyphens: auto;
 	font-weight: 300;
 }
 a {
