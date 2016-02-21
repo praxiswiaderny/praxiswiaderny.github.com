@@ -110,51 +110,9 @@ $(document).ready(function(){
 	);
 
 /*-----------------------------------------------------------------------------------*/
-/*		5.	Background Resize
+/*		5.	Background Related
 /*-----------------------------------------------------------------------------------*/
-	$("#top").ezBgResize(
-		{
-		img:"assets/images/bg.jpg"
-	}
-	);
-
-	function resizetop()
-		{
-		var width=document.documentElement.clientWidth,height=document.documentElement.clientHeight,source=document.getElementById('top');
-		source.style.height=height+'px',
-		source.style.width=width+'px';
-	}
-	function addEvent(element,type,listener)
-		{
-		if(element.addEventListener)
-			{
-			element.addEventListener(type,listener,false)
-		}
-		else if(element.attachEvent)
-			{
-			element.attachEvent("on"+type,listener)
-		}
-	}
-	addEvent(window,"load",resizetop);
-	addEvent(window,"resize",resizetop);
-	function calhight()
-		{
-		var win=jQuery(window).height();
-		if(win<"710")
-			{
-			jQuery("#scrolldown").css("display","none")
-		}
-		else
-			{
-			jQuery("#scrolldown").css("display","block")
-		}
-	}
-	calhight();
-	jQuery(window).resize(function()
-		{
-		calhight()
-	}
-	);
+	$("#top").css("height", $(window).height());
 	
 	$(document).ready(function()
 		{
@@ -178,7 +136,7 @@ $(document).ready(function(){
 			}
 		}
 		)
-	}
+	 }
 	)
 }
 );
