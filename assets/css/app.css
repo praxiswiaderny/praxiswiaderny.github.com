@@ -356,6 +356,8 @@ a .overlay .icon {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center center;
+	min-width: 100%;
+    min-height: 100%;
 }
 .separator {
 	margin: 0 10px;
