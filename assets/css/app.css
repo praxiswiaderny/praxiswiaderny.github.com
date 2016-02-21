@@ -306,11 +306,11 @@ super {
 }
 .featured {
 	width: 940px;
-	height: 627px;
+	height: 300px;
 }
 .featured img {
 	width: 940px;
-	height: 627px;
+	height: 300px;
 }
 a .overlay {
 	position: absolute;
