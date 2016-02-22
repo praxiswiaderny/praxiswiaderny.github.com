@@ -62,6 +62,11 @@ p{
 .center {
 	text-align: center;
 }
+
+.gray-prices {
+	color: #e3e3e3;
+	letter-spacing: -3px;
+}
 /* Columns ------------------------------*/
  .one_half {
 	width: 48%;
@@ -207,7 +212,7 @@ letter-spacing: 2px;
 	margin: 60px 0 30px 0;
 }
 .menusep {
-	background: url(../images/sep.png) repeat-x 0 12px;
+	background: url(../images/sep.png) repeat-x 0 16px;
 	
 	margin-bottom: 10px;
 }
